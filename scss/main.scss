@@ -148,9 +148,12 @@ body {
 }
 
 @media screen and (max-width: 390px) {
-  body { padding: 0;}
+  body {
+    padding: 0;
+  }
   .container {
     width: 90%;
+    height: auto;
   }
   .top {
     display: grid;
@@ -217,6 +220,7 @@ body {
   }
   .container {
     width: 90%;
+    height: auto;
   }
   .top {
     display: grid;
@@ -279,6 +283,7 @@ body {
   }
   .container {
     width: 90%;
+    height: auto;
   }
   .top {
     display: grid;
