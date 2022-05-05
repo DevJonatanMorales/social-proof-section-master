@@ -38,6 +38,7 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: 50% 50%;
   grid-template-areas: "fila__top" "fila__bottom";
+  width: 1000px;
   padding: 5rem 0;
 }
 
@@ -51,6 +52,7 @@ body {
 
 .main {
   grid-area: top__letf;
+  padding: 2rem;
 }
 
 .main__title {
@@ -104,10 +106,10 @@ body {
 
 .card {
   background-color: hsl(300deg, 43%, 22%);
-  width: 350px;
+  width: 300px;
   height: 220px;
   color: hsl(0deg, 0%, 100%);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 10px;
 }
 
@@ -222,6 +224,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   body {
     padding: 0 1rem;
+    overflow-y: scroll;
   }
 
   .top {
