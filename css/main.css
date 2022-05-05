@@ -52,7 +52,7 @@ body {
 
 .main {
   grid-area: top__letf;
-  padding: 2rem 0;
+  padding-top: 5rem;
 }
 
 .main__title {
@@ -71,7 +71,7 @@ body {
 }
 
 .aside {
-  padding: 2rem 0;
+  padding-top: 5rem;
   grid-area: top__right;
   justify-self: end;
 }
