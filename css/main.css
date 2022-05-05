@@ -52,10 +52,11 @@ body {
 
 .main {
   grid-area: top__letf;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .main__title {
+  width: 80%;
   line-height: 3rem;
   font-size: 48px;
   font-weight: 700;
@@ -63,12 +64,14 @@ body {
 }
 
 .main__info {
+  width: 75%;
   color: hsl(303deg, 10%, 53%);
   font-weight: 500;
   line-height: 1.5rem;
 }
 
 .aside {
+  padding: 2rem 0;
   grid-area: top__right;
   justify-self: end;
 }
@@ -169,6 +172,11 @@ body {
   .main {
     grid-area: superior_top;
     text-align: center;
+  }
+
+  .main__title,
+.main__info {
+    width: 100%;
   }
 
   .aside {
